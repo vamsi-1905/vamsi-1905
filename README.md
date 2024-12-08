@@ -2,7 +2,7 @@
 - 👀 I’m interested in programming and coding and always open to learn
 - 🌱 I’m currently learning c programming 
 - 💞️ I’m looking to collaborate in any domain and all kinds of project , I am here to learn
-- 📫 How to reach me instagram-@vamsi_1905_ , gmail - sai.vamsidhar.bonam@gmail.com
+- 📫 How to reach me gmail - sai.vamsidhar.bonam@gmail.com
 - 😄 Pronouns: He
 - ⚡ Fun fact: I am a poet and a guitarist too
 <!---
