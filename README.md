@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @vamsi-1905
 - 👀 I’m interested in programming and coding and always open to learn
-- 🌱 I’m currently learning c programming 
+- 🌱 I’m currently learning c , java and html programming 
 - 💞️ I’m looking to collaborate in any domain and all kinds of project , I am here to learn
 - 📫 How to reach me gmail - sai.vamsidhar.bonam@gmail.com
 - 😄 Pronouns: He
