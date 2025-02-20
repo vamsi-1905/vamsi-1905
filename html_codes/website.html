@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Arena Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#event-report">Event Report</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <div class="banner-content">
+            <h1>AI Arena - IEEE-CIS Hackathon</h1>
+            <p>April 26th - 27th, 2024 | Amrita Vishwa Vidyapeetham</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </header>
+
+    <section id="description" class="desc-container">
+        <div class="text">
+            <h2>Event Description</h2>
+            <p>The IEEE-CIS Overnight Hackathon brought together AI enthusiasts to tackle real-world problems...</p>
+        </div>
+        <div class="image">
+            <img src="event1.jpg" alt="Hackathon Event">
+        </div>
+    </section>
+
+    <section id="agenda" class="timeline-container">
+        <div class="timeline-image">
+            <img src="timeline.jpg" alt="Event Timeline">
+        </div>
+        <div class="text">
+            <h2>Agenda</h2>
+            <ul>
+                <li><strong>Checkpoint 1:</strong> 6:15 pm - 9:15 pm | Idea Submission</li>
+                <li><strong>Checkpoint 2:</strong> 1:30 am | AI Model Development</li>
+                <li><strong>Checkpoint 3:</strong> 5:30 am | Final Showcase</li>
+                <li><strong>Final Presentations:</strong> 10 am - 3:30 pm</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="media" class="carousel">
+        <div class="carousel-container">
+            <img id="carousel-image" class="image-1" src="aiArena1.jpg" alt="Event Pic 1">
+            <img id="carousel-image" class="image-2" src="aiArena2.jpg" alt="Event Pic 2">
+            <img id="carousel-image" class="image-3" src="aiArena3.jpg" alt="Event Pic 3">
+        </div>
+    </section>
+
+    <section id="highlights">
+        <h2>Event Highlights</h2>
+        <ul>
+            <li>106 participants (8 IEEE, 98 non-IEEE)</li>
+            <li>14 IEEE volunteers ensuring smooth execution</li>
+            <li>Cash prizes awarded: ₹3000, ₹2000, ₹1000</li>
+            <li>Judges: Mr. Praveen Kumar and Ms. Mishael</li>
+            <li>Dr. Manju Khanna provided valuable feedback</li>
+        </ul>
+    </section>
+
+    <section id="event-report">
+        <h2>Event Report - AI Arena</h2>
+        <p>The IEEE-CIS Overnight hackathon gathered a dynamic group of AI enthusiasts...</p>
+        <ul>
+            <li>Project ideation and submissions through Discord</li>
+            <li>Evaluation by judges based on innovation and execution</li>
+            <li>Final presentations and prize distribution</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 IEEE-CIS | <a href="mainpage.html">Back to Main Page</a></p>
+    </footer>
+
+    <script>
+        const images = [
+            "aiArena1.jpg",
+            "aiArena2.jpg",
+            "aiArena3.jpg"
+        ];
+        let currentImageIndex = 0;
+
+        function changeImage() {
+            const imageElements = document.querySelectorAll("#carousel-image");
+            imageElements.forEach(image => image.style.opacity = 0);
+
+            setTimeout(() => {
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                imageElements.forEach((image, index) => {
+                    image.src = images[(currentImageIndex + index) % images.length];
+                    image.style.opacity = 1;
+                });
+            }, 1000); // Wait for the fade-out transition to complete
+        }
+
+        setInterval(changeImage, 3000); // Change image every 3 seconds
+    </script>
+</body>
+</html>
