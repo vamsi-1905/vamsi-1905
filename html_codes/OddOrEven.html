@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function testOddEven()
+            {
+                
+                var num = document.getElementById('numberInput').value;
+                if(num % 2 === 0) {
+                    document.getElementById('result').innerHTML = " is Even";
+                } else {
+                    document.getElementById('result').innerHTML = " is Odd";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h3>Odd/Even Number Tester</h3>
+        <input type="text" id="numberInput" placeholder="Enter a number">
+        <button onclick="testOddEven()">Test Number</button>
+        <p id="result"></p>
+    </body>
+</html>

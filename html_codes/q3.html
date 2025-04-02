@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Recruitment Form</title>
+    <script>
+        function updateSalary() {
+            const position = document.getElementById('positionInput').value;
+            const salaryInput = document.getElementById('salaryInput');
+
+            const salaryMapping = {
+                "Lecturer": 500000,
+                "Associate Professor": 1000000,
+                "Assistant Professor": 1500000
+            };
+
+            salaryInput.value = salaryMapping[position] || "";
+        }
+    </script>
+</head>
+<body>
+    <h1>College Recruitment Form</h1>
+    <form>
+        <input type="text" id="nameInput" placeholder="Enter your name" maxlength="20" required>
+        <br><br>
+
+        <input type="email" id="emailInput" placeholder="Enter your email id" maxlength="20" required>
+        <br><br>
+
+        <label for="positionInput">Position:</label>
+        <select id="positionInput" onchange="updateSalary()" required>
+            <option value="">Select Position</option>
+            <option value="Lecturer">Lecturer</option>
+            <option value="Associate Professor">Associate Professor</option>
+            <option value="Assistant Professor">Assistant Professor</option>
+        </select>
+        <br><br>
+
+        <label for="salaryInput">Expected Salary:</label>
+        <input type="text" id="salaryInput" placeholder="Auto-filled based on position" readonly>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
