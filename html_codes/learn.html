@@ -1,0 +1,18 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Para creator</h1>
+    <button onclick="create1()">Create para</button>
+
+    <script>
+      function create1() {
+        let para = document.createElement("p"); // create a <p> element
+        para.textContent = "This is a new paragraph!"; // set its text
+        document.body.appendChild(para); // append it to body
+      }
+    </script>
+  </body>
+</html>

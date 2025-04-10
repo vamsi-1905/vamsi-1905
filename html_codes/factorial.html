@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>factorial calc</h1>
+        <input type = "text" placeholder="enter number to calculate for" id="input">
+        <button onclick="test1()">Calculate</button>
+        <p id="z"></p>
+    </body>
+    <script>
+        function test1()
+        {
+            let x= document.getElementById("input").value;
+            x = parseInt(x);
+            let y=1;
+            for(let i=1;i<=x;i++)
+        {
+            y=y*i;
+        }
+            document.getElementById("z").innerHTML=y;
+        }
+    </script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input id="name" placeholder="Enter name">
+    <button id="add">Add Name</button>
+    <ul id="list"></ul>
+
+    <script>
+      const button = document.getElementById("add");
+      const list = document.getElementById("list");
+
+      button.addEventListener("click", () => {
+        const name = document.getElementById("name").value;
+        const li = document.createElement("li");
+        li.textContent = name;
+        list.appendChild(li);
+      });
+    </script>
+  </body>
+</html>
