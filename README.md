@@ -1,11 +1,11 @@
-# 👋🏼 Heyy! I am Sai Vamsidhar B  
-👨‍💻 Studying CSE-AI at Amrita Vishwa Vidyapeetham, Bengaluru, India<br>
+#  Heyy! I am Sai Vamsidhar B  
+ Studying CSE-AI at Amrita Vishwa Vidyapeetham, Bengaluru, India<br>
 
 Passionate about AI, computational biology, medical imaging, embedded systems, and problem solving.
 
 ---
 
-## 🌐 Socials:
+##  Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sai-vamsidhar-b-294a35325)
 [![GitHub](https://img.shields.io/badge/GitHub-000000.svg?logo=github&logoColor=white)](https://github.com/vamsi-1905)
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sai.vamsidhar.bonam@gmail.com)
@@ -26,7 +26,7 @@ Passionate about AI, computational biology, medical imaging, embedded systems, a
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-# 📊 GitHub Stats:
+#  GitHub Stats:
 
 <table align="center">
 <tr>
@@ -52,7 +52,7 @@ Passionate about AI, computational biology, medical imaging, embedded systems, a
 
 ---
 
-### 🚀 Current Interests
+###  Current Interests
 - Machine Learning & AI
 - Medical Image Analysis
 - Bioinformatics
@@ -61,7 +61,7 @@ Passionate about AI, computational biology, medical imaging, embedded systems, a
 
 ---
 
-### 🔝 Featured Projects
+###  Featured Projects
 - Medical Image Analysis for Diabetic Retinopathy
 - Splice-Site Disruption Prediction
 - Arduino & IoT Based Systems
