@@ -37,13 +37,13 @@ I enjoy building projects that combine problem solving, data analysis, and real-
 
 <p align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=vamsi-1905&show_icons=true&theme=tokyonight" 
-    alt="GitHub Stats"
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=vamsi-1905&show_icons=true&theme=tokyonight"
+    height="165"
   />
 
   <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=vamsi-1905&layout=compact&theme=tokyonight" 
-    alt="Top Languages"
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vamsi-1905&layout=compact&theme=tokyonight"
+    height="165"
   />
 </p>
 
