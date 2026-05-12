@@ -33,14 +33,9 @@ I enjoy building projects that combine problem solving, data analysis, and real-
 
 ---
 
-## GitHub Stats
-
 ![Vamsi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vamsi-1905&show_icons=true&theme=tokyonight&hide=issues&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vamsi-1905&layout=compact&theme=tokyonight&hide=markdown,tex&langs_count=8)
-
----
-
 ## Connect With Me
 
 - LinkedIn: [sai-vamsidhar-b-294a35325](https://www.linkedin.com/in/sai-vamsidhar-b-294a35325)
