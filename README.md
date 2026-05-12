@@ -49,6 +49,11 @@ I enjoy building projects that combine problem solving, data analysis, and real-
 </tr>
 </table>
 
+## Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vamsi-1905/vamsi-1905/output/github-contribution-grid-snake-dark.svg" />
+</p>
 
 ## Connect With Me
 
