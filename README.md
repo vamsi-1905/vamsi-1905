@@ -31,20 +31,23 @@ I enjoy building projects that combine problem solving, data analysis, and real-
 ### Libraries & Tools
 `OpenCV` `TensorFlow` `Scikit-learn` `NumPy` `Pandas` `PyTorch` `Git` `Arduino` `Linux`
 
----
 ## GitHub Stats
 
-<p align="center">
-  <img
-    height="170"
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=vamsi-1905&show_icons=true&theme=tokyonight&hide_border=true"
-  />
+<table align="center">
+<tr>
+<td align="center">
 
-  <img
-    height="170"
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vamsi-1905&layout=compact&theme=tokyonight&hide_border=true"
-  />
-</p>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=vamsi-1905&show_icons=true&theme=tokyonight&hide_border=true" />
+
+</td>
+
+<td align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vamsi-1905&layout=compact&theme=tokyonight&hide_border=true" />
+
+</td>
+</tr>
+</table>
 
 
 ## Connect With Me
